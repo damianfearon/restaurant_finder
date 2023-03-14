@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Navigation() {
   return (
-    <div>N</div>
+    <div>Navigation</div>
   )
 }
