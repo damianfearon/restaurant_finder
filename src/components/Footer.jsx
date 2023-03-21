@@ -25,10 +25,10 @@ export default function Footer() {
         {/* List Container */}
         <div class="flex justify-around space-x-32">
           <div class="flex flex-col space-y-3 text-white">
-            <a href="#">Home</a>
-            <a href="#">Restaurants</a>
+            <a href="#" className='hover:text-regal-blue'>Home</a>
+            <a href="#" className='hover:text-regal-blue'>Restaurants</a>
             <a href="#" class="hover:text-regal-blue">Locations</a>
-            <a href="#">Contact</a>
+            <a href="#" className='hover:text-regal-blue'>Contact</a>
           </div>
           <div class="flex flex-col space-y-3 text-white">
             <a href="#" class="hover:text-regal-blue">Careers</a>
