@@ -27,13 +27,13 @@ export default function Footer() {
           <div class="flex flex-col space-y-3 text-white">
             <a href="#">Home</a>
             <a href="#">Restaurants</a>
-            <a href="#" class="hover:text-brightRed">Locations</a>
+            <a href="#" class="hover:text-regal-blue">Locations</a>
             <a href="#">Contact</a>
           </div>
           <div class="flex flex-col space-y-3 text-white">
-            <a href="#" class="hover:text-brightRed">Careers</a>
-            <a href="#" class="hover:text-brightRed">Corporate Social Responsibility</a>
-            <a href="#" class="hover:text-brightRed">Privacy Policy</a>
+            <a href="#" class="hover:text-regal-blue">Careers</a>
+            <a href="#" class="hover:text-regal-blue">Corporate Social Responsibility</a>
+            <a href="#" class="hover:text-regal-blue">Privacy Policy</a>
           </div>
         </div>
 
