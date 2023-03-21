@@ -32,10 +32,10 @@ export default function Header() {
 
           {/* Menu Items */}
           <div className='space-x-6'>
-            <a href="#" className='hover:text-regal-blue'>Restaurants</a>
-            <a href="#" className='hover:text-regal-blue'>Locations</a>
-            <a href="#" className='hover:text-regal-blue'>About</a>
-            <a href="#" className='hover:text-regal-blue'>Contact</a>
+            <a href="#" className='hover:text-mint'>Restaurants</a>
+            <a href="#" className='hover:text-mint'>Locations</a>
+            <a href="#" className='hover:text-mint'>About</a>
+            <a href="#" className='hover:text-mint'>Contact</a>
           </div>
           
         

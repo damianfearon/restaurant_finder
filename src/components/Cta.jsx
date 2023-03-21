@@ -12,13 +12,13 @@ export default function Cta() {
         <h2
           class="text-5xl font-bold leading-tight text-center text-white md:text-4xl md:max-w-xl md:text-left"
         >
-          Eat With us Today!
+          Eat With Us Today!
         </h2>
         <div class="my-16">
           <button
             href="#"
-            class="p-3 px-6 pt-2 text-brightRed bg-white rounded-full shadow-2xl baseline hover:bg-gray-900"
-            >I'm feeling Hungry </button>
+            class="p-3 px-6 pt-2 text-brightRed bg-white rounded-full shadow-2xl baseline hover:bg-mint hover:text-white"
+            >I'm Feeling Hungry </button>
         </div>
       </div>
     </section>
