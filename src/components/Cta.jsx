@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Navigation() {
+export default function Cta() {
    return (
     // !-- CTA Section -->
     <section id="cta" class="bg-regal-blue">
