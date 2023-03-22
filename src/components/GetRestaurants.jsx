@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
+import {motion} from "framer-motion";
 
 //include import from another js file for location to coordinates
 
@@ -36,16 +37,23 @@ const GetRestaurants = ({coordinates}) => {
       }
     }, [coordinates])
 
-  
+  const cardVariant = {
+    hidden: {opacity:0},
+    visible: {opacity:1},
+  }
   
 
   return (
     <div className="p-16 bg-blue-100">
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
       {restaurants.map((restaurant, index) => (
-        <div 
+        <motion.div 
           key={index} 
           className="restaurant bg-white p-4 rounded-lg shadow-lg"
+          initial = "hidden"
+          animate = "visible"
+          variants = {cardVariant}
+          transition = {{duration: 2.0}}
         >
           <h3 className="font-bold">{restaurant.name}</h3>
           <p>
@@ -63,7 +71,7 @@ const GetRestaurants = ({coordinates}) => {
           <p> 
           <a href={`${restaurant.website}`} className="text-blue-400">Website</a>
         </p>  
-        </div>
+        </motion.div>
       ))}
       </div>
     </div>
