@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from './logo.png'
 
 export default function Header({onSearchInputChange}) {
   const handleInputChange = (event) => {
@@ -11,8 +12,10 @@ export default function Header({onSearchInputChange}) {
         {/* Flex Container */}
         <div className='flex items-center justify-between'>
           {/* Logo */}
-          <div className="pt-2">
-            <h2 className=' whitespace-nowrap font-bold text-regal-blue'>Restaurant | Finder</h2>
+          
+          <div className="pt-2 flex items-center">
+          <img src={logo} alt="logo" className='w-16' />
+            <h2 className=' whitespace-nowrap font-bold text-regal-blue'>LettuceDeliver</h2>
           </div>
 
 {/* Search Bar */}

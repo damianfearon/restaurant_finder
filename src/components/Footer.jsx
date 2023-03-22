@@ -9,12 +9,12 @@ export default function Footer() {
         <div className='flex flex-col-reverse items-center justify-between space-y-12'
         >
           <div className='mx-auto my-6 text-center text-white'>
-            Restaurant Finder &copy; 2023, All Rights Reserved.
+          LettuceDeliver &copy; 2023, All Rights Reserved.
            </div>
 
            {/* Logo */}
            <div>
-           <h2 className='font-bold text-white'>Restaurant | Finder</h2>
+           <h2 className='font-bold text-white'>LettuceDeliver</h2>
            </div>
           
         </div>
