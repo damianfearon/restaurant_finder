@@ -20,25 +20,25 @@ export default function Footer() {
         </div>
 
        {/* Social Links Container & Icons */}
-       <div class="flex justify-center space-x-4">
+       <div className="flex justify-center space-x-4">
 
        <a href="#">
-              <img src="/img/icon-facebook.svg" alt="" class="h-8" />
+              <img src="/img/icon-facebook.svg" alt="" className="h-8" />
             </a>
             
             {/* Twitter */}
             <a href="#">
-              <img src="/img/icon-twitter.svg" alt="" class="h-8" />
+              <img src="/img/icon-twitter.svg" alt="" className="h-8" />
             </a>
            
             {/* Instagram */}
             <a href="#">
-              <img src="/img/icon-instagram.svg" alt="" class="h-8" />
+              <img src="/img/icon-instagram.svg" alt="" className="h-8" />
             </a>
 
             {/* YouTube */}
             <a href="#">
-              <img src="/img/icon-youtube.svg" alt="" class="h-8" />
+              <img src="/img/icon-youtube.svg" alt="" className="h-8" />
             </a>
            </div>
 
@@ -47,14 +47,14 @@ export default function Footer() {
           <div className="flex flex-col space-y-3 text-white">
             <a href="#" className='hover:text-regal-blue'>Home</a>
             <a href="#" className='hover:text-regal-blue'>Restaurants</a>
-            <a href="#" class="hover:text-regal-blue">Locations</a>
+            <a href="#" className="hover:text-regal-blue">Locations</a>
             <a href="#" className='hover:text-regal-blue'>Contact</a>
           </div>
-          <div class="flex flex-col space-y-3 text-white">
-            <a href="#" class="hover:text-regal-blue">Careers</a>
-            <a href="#" class="hover:text-regal-blue">Corporate Social Responsibility</a>
-            <a href="#" class="hover:text-regal-blue">Green Facts</a>
-            <a href="#" class="hover:text-regal-blue">Privacy Policy</a>
+          <div className="flex flex-col space-y-3 text-white">
+            <a href="#" className="hover:text-regal-blue">Careers</a>
+            <a href="#" className="hover:text-regal-blue">Corporate Social Responsibility</a>
+            <a href="#" className="hover:text-regal-blue">Green Facts</a>
+            <a href="#" className="hover:text-regal-blue">Privacy Policy</a>
           </div>
         </div>
  </div>
