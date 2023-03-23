@@ -18,7 +18,7 @@ Please enter a location and our application will popualate a list of dining esta
 
 ## Screenshots
 
-![UI](/img/ld.png)
+![UI](public/img/ld.png)
 
 ## Credits
 
