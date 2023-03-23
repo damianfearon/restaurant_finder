@@ -31,7 +31,7 @@ function APIpostcode ({searchLocation, setCoordinatesCallback}) {
           polygon_threshold: '0.0'
         },
         headers: {
-          'X-RapidAPI-Key': '96d3145458msh88398ed9642d141p10ef6ajsne53e90f42611',
+          'X-RapidAPI-Key': '123b083e7bmshd330d9562f79b6ep1bb142jsn7aaad90d7441',
           'X-RapidAPI-Host': 'forward-reverse-geocoding.p.rapidapi.com'
         }
       };
